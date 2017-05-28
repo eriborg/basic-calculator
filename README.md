@@ -2,7 +2,7 @@
 
 ## Objectives
 
-Create a basic (non scientific) calculator that can do  regular mathemtical operations. A basic user interface that is usable is necessary.
+Create a basic (non scientific) calculator that can do  basic arithmetic operations. A basic user interface that is usable is necessary.
 
 It should look something like this:
 ![Basic Calculator Interface](images/basic-caculator.png)
