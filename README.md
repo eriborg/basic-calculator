@@ -9,7 +9,7 @@ It should look something like this:
 
 ## Quick Start
 
-1. Fork this repository (click the button "Fork" located in the upper left corner of the screen )
+1. Fork this repository (click the button "Fork" located in the upper left corner of the screen)
 2. Once the [fork](https://help.github.com/articles/fork-a-repo/) is complete, clone the repository from your GitHub profile and begin to work locally using a "feature branch" (one that is not master). Then use the standard Git workflow we learned in class.
 
 
