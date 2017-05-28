@@ -28,6 +28,7 @@ It should look something like this:
 
 
 ### Additional requirements:
+- A JS Module Pattern **must** be used
 - Use jQuery to manipulate DOM elements
 
 
