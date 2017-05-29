@@ -1,3 +1,95 @@
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(254,254,254);
 }
+
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 25px;
+}
+
+section {
+    width:480px;
+    margin:20px auto 0;
+}
+
+.calculator {
+    width:380px;
+    height:410px;
+    padding:10px 0;
+    background: rgb(76,76,76);    
+    border:rgb(76,76,76) 0.4px solid;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 1px 8px 16px 8px rgba(158,158,158, 0.7);
+}
+
+.display {
+    width:380px;
+    height:80px;
+    padding:15px 20px;
+    color:#f1efef;
+    background: rgb(76,76,76);
+    text-align: right;
+    font-size: 3em;
+    letter-spacing: 3px;
+    overflow:hidden;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;}
+
+.buttons {
+    padding:0;
+    width:380px;
+    margin:auto;
+    overflow: hidden;
+    list-style: none}
+
+.buttons li {
+    display:inline;
+    float:left;
+    padding:0px;
+ 
+.buttons li:nth-child(4n) {
+     margin-right:0;}
+
+.buttons span{
+    display:block;
+    width:95px;
+    height:68px;
+    padding:18px 0 12px;
+    color:#737171;
+    font-size:1.6em;
+    font-weight: 500;
+    letter-spacing: -2px;
+    background-color:rgb(224,224,224);
+    text-align: center;
+    text-decoration: none;
+    box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+    -webkit-box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+    -moz-box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+.buttons span:active{
+     box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
+     background-image:-moz-linear-gradient(top, #2f2f2f 0%, #363636 100%);
+     background-image:-webkit-linear-gradient(top, #2f2f2f 0%, #363636 100%);
+     background-image:linear-gradient(top, #2f2f2f 0%, #363636 100%);
+}
+
+.wide {
+	width:190px !important;
+}
+
+.btn-div, .btn-by, .btn-equal, .btn-plus, .btn-min{
+	background: rgb(245,146,62) !important;
+	color: #f1efef !important;
+}
+
